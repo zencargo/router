@@ -1,0 +1,9 @@
+# Publish
+version=$(yq '.version' helm/chart/router/Chart.yaml)
+echo -e "Publishing chart router version: ${version}"
+helm package helm/chart/router
+mv "router-${version}.tgz" docs
+helm repo index docs --url https://zencargo.github.io/router
+git add docs
+git commit -m "Publish chart ${version}"
+git push origin dev
