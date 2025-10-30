@@ -13,6 +13,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: {{ $routerFullName }}
+  namespace: {{ include "router.namespace" . }}
   labels:
     {{- include "router.labels" . | nindent 4 }}
     {{- if .Values.extraLabels }}
