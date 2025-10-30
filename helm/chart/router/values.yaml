@@ -262,3 +262,6 @@ topologySpreadConstraints: []
 
 # -- Sets the restart policy of pods
 restartPolicy: Always
+
+testConnection:
+  enabled: true
