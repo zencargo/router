@@ -3,7 +3,17 @@ entries:
   router:
   - apiVersion: v2
     appVersion: v2.8.0
-    created: "2025-10-30T14:52:13.589495+01:00"
+    created: "2025-10-30T16:57:07.268988+01:00"
+    description: Rust Graph Routing runtime for Apollo Federation
+    digest: ec3b471d93472324dd9551df3072c497db61b676220df53d47e5de9657992b68
+    name: router
+    type: application
+    urls:
+    - https://zencargo.github.io/router/router-2.8.2.tgz
+    version: 2.8.2
+  - apiVersion: v2
+    appVersion: v2.8.0
+    created: "2025-10-30T16:57:07.268419+01:00"
     description: Rust Graph Routing runtime for Apollo Federation
     digest: 2ee4c9c5a5bcc15176bdbf969e1b234efcd68ddfb113c8cda8f8c2198a98af3f
     name: router
@@ -13,7 +23,7 @@ entries:
     version: 2.8.1
   - apiVersion: v2
     appVersion: v2.8.0
-    created: "2025-10-30T14:52:13.589057+01:00"
+    created: "2025-10-30T16:57:07.267293+01:00"
     description: Rust Graph Routing runtime for Apollo Federation
     digest: 5da16d3f7031da5b4fbd4192fd1843da8c5f6870f1509e0c5b4218d9a1135a5d
     name: router
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://zencargo.github.io/router/router-2.8.0.tgz
     version: 2.8.0
-generated: "2025-10-30T14:52:13.588011+01:00"
+generated: "2025-10-30T16:57:07.266185+01:00"
