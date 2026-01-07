@@ -136,7 +136,7 @@ jsonschema = { version = "0.33.0", default-features = false }
 jsonwebtoken = "9.3.0"
 libc = "0.2.155"
 linkme = "0.3.30"
-lru = "0.16.0"
+lru = "0.16.3"
 mediatype = "0.20.0"
 mockall = "0.13.0"
 mime = "0.3.17"
