@@ -9,7 +9,7 @@ license-file = "../../../LICENSE"
 anyhow = "1"
 apollo-router = { path = "../../../apollo-router" }
 async-trait = "0.1"
-bytes = "1.6.0"
+bytes = "1.11.1"
 futures = "0.3"
 http = "1.2.0"
 http-body-util = "0.1.2"
